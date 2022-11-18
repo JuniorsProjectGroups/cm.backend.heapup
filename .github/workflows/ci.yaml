@@ -11,5 +11,5 @@ jobs:
         node-version: 16.18.1
     - run: |
           npm ci
+          npm run test
           npm run build
-          npm run test:unit
