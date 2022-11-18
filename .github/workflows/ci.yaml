@@ -12,4 +12,5 @@ jobs:
     - run: |
           npm ci
           npm run test
+          npm run lintfix
           npm run build
